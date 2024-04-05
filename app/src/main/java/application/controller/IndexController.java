@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class IndexController {
     @RequestMapping("/")
     public String home() {
-        return "WEB-INF/home.jsp";
+        return "home";   //após o intervalo ver 03 onde mudou o 
+        //return "WEB-INF/home.jsp" para o que ta ali
     }
 }
 
