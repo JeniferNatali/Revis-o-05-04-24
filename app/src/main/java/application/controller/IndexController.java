@@ -8,7 +8,8 @@ public class IndexController {
     @RequestMapping("/")
     public String home() {
         return "home";   //após o intervalo ver 03 onde mudou o 
-        //return "WEB-INF/home.jsp" para o que ta ali
+        //return "WEB-INF/home.jsp" para o que ta ali salvar teste
     }
 }
+
 
